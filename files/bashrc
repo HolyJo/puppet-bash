@@ -34,7 +34,7 @@ export PATH=$PATH:/usr/sbin:/sbin:/opt/apache-ant/bin
 
 export SVN_EDITOR=vi
 
-alias cc='sudo rm -Rf app/cache/* && sudo rm -Rf app/logs/* && sudo rm -Rf /var/tmp/prayerlabs/cache/* && sudo rm -Rf /var/tmp/prayerlabs/logs/*'
-alias assets='app/console assets:install --symlink'
-alias asseticdump='app/console assetic:dump'
+#alias cc='sudo rm -Rf app/cache/* && sudo rm -Rf app/logs/* && sudo rm -Rf /var/tmp/prayerlabs/cache/* && sudo rm -Rf /var/tmp/prayerlabs/logs/*'
+#alias assets='app/console assets:install --symlink'
+#alias asseticdump='app/console assetic:dump'
 export PATH=$PATH:/opt/apache-ant/bin
