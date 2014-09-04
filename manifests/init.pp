@@ -1,7 +1,7 @@
-class bash($home, $owner, $thegroup) {
+class bash($home, $owner, $thegroup, $env_descriptor) {
     file { "${home}/.bashrc":
         ensure => present,
-        source => "puppet:///modules/bash/bashrc",
+        content => template('bash/bashrc.erb'),
         owner => "${owner}",
         group => "${thegroup}"
     }

@@ -33,6 +33,7 @@ fi
 export PATH=$PATH:/usr/sbin:/sbin:/opt/apache-ant/bin
 
 export SVN_EDITOR=vi
+export PS1="[\u@<%= @env_descriptor %> \W]\$ "
 
 #alias cc='sudo rm -Rf app/cache/* && sudo rm -Rf app/logs/* && sudo rm -Rf /var/tmp/prayerlabs/cache/* && sudo rm -Rf /var/tmp/prayerlabs/logs/*'
 #alias assets='app/console assets:install --symlink'
